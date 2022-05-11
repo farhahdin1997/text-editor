@@ -4,12 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
+    "start:dev": "webpack-dev-server",
+    "start": "webpack --watch",
+    "server": "server.js",
+    "build": "webpack --mode production",
     "client": ""
+   
   },
   "keywords": [],
   "author": "",
